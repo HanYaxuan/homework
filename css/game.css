@@ -1,0 +1,132 @@
+.container{
+	width: 1200px;margin: 0 auto;
+}
+
+.logo{
+	float: left;
+}
+.nav{
+	width: 300px;float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.nav li{float:left;
+	width:100px;
+	height:46px;
+	text-align:center;
+	padding-top: 50px;
+	border-bottom: 2px solid white}
+
+.form{
+	float: left;
+	margin-top: 40px;
+}
+.nav a{
+	font-size:18px;
+	color:rgba(5,5,5,1);
+}
+.nav li:hover{
+	border-bottom:2px solid rgba(0,164,255,1);
+}
+.search{
+	float:left;
+	height:39px;
+	width:300px;
+	border:1px solid rgba(0,164,255,1);
+	padding-left:19px;}
+.submit{
+        	float:left;
+        	height:41px;
+        	border:1px solid rgba(0,164,255,1);
+        	width:51px;
+        	background: rgba(0,164,255,1) url(../image/search.png) no-repeat center center;
+        }
+
+.quick{
+	float: right;
+}
+
+.header-info {
+	margin-top: 40px;
+    line-height: 32px;
+    float: right;
+}
+
+.header-info li {
+    float: left;
+    margin-left: 27px;
+    background: no-repeat left center;
+}
+li.weixin {
+    padding-left: 23px;
+    background-image: url(../image/weixin.png);
+}
+.weixin a{
+	color:rgba(0,0,0,1)
+}
+ .banner {
+ 	height: 682px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.banner li {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;}
+.games{
+	margin-top: 5px;
+}
+.games li{
+	float: left;
+	height: 500px;
+	width: 390px;
+	margin-right: 10px;
+	position: relative;
+}
+.you{height:500px;
+	width: 390px;
+}
+.part-top{
+	height: 50px;
+	border-bottom:2px solid rgba(0,164,255,1) ;
+	font-size: 20px ;
+	color: rgba(0,164,255,1);
+	padding-top: 25px;
+}
+.content{
+	font-size:30px;
+	color:rgba(255,255,255,1);
+	width:390px;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	background:rgba(0,0,0,0.4);
+	text-align: center;
+}
+.footer{
+	margin-top: 30px;
+	height: 300px;
+	background-color: rgba(0,0,0,1);
+}
+.footer img{margin-top:100px;}
+.container-right{
+	float: right;
+	margin-top: 130px;
+	margin-right: 20px;
+}
+.container-right li{
+	float: left;
+	border-left:1px solid white ;
+	width: 200px;
+	text-align: center;
+}
+.container-right .one{
+	border: none;
+}
+.container-right a{
+	color: white;
+}
